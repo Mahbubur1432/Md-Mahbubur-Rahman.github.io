@@ -1,0 +1,125 @@
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  left: 0;
+  
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 16px 20px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.navbar a.active
+{
+    color: black;
+    background-color: #f2f2f2;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+.welcome_div
+{
+
+  height: 400px;
+  width: 80%;
+  background-color:paleturquoise;
+  margin: auto;
+  margin-top: 40px;
+  border: 2px solid rgb(2, 87, 87);
+  border-radius: 10px;
+  border-block-start-width: 30px;
+}
+.bot_div
+{
+  background-color:cadetblue;
+  bottom: 0;
+  height: 60px;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  color: white;
+  
+}
+.personal_details
+{
+  width: 90%;
+  margin: auto; 
+  border: 1px solid gainsboro; 
+  margin-top: 40px; 
+  height: 400px;
+ 
+}
+
+.personal_details:hover{
+  
+  background-color: ghostwhite;
+  border: 1px solid black;
+}
+.education_details
+{
+  width: 90%;
+  margin: auto; 
+  border: 1px solid gainsboro; 
+  margin-top: 40px; 
+  height: 150px;
+  padding-top: 20px;
+ 
+}
+
+.education_details:hover
+{
+  background-color: ghostwhite;
+  border: 1px solid black;
+}
+
+.skills_details
+{
+  width: 90%;
+  margin: auto; 
+  border: 1px solid gainsboro; 
+  margin-top: 40px; 
+  height: 250px;
+}
+
+.skills_details:hover
+{
+  background-color: ghostwhite;
+  border: 1px solid black;
+}
+
+.c_project
+{
+  width: 90%;
+  margin: auto; 
+  border: 1px solid gainsboro; 
+  margin-top: 40px; 
+  height: 100px;
+  padding-top: 20px;
+ 
+}
+
+.c_project:hover
+{
+  background-color: ghostwhite;
+  border: 1px solid black;
+}
+.c_project a
+{
+  text-decoration: none;
+}
+.c_project a:hover
+{
+  text-decoration: underline;
+}
+
